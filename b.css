@@ -329,3 +329,123 @@ footer {
   color: var(--gris);
   letter-spacing: 1px;
 }
+/* ══ CORRECCIÓN ORDEN: derecha, trasera, inferior ══ */
+
+/* FORMAS */
+#formas-derecha:checked  ~ #figura-formas .v-derecha,
+#formas-trasera:checked  ~ #figura-formas .v-trasera,
+#formas-inferior:checked ~ #figura-formas .v-inferior { display: block; }
+#formas-derecha:checked  ~ #figura-formas label[for="formas-derecha"],
+#formas-trasera:checked  ~ #figura-formas label[for="formas-trasera"],
+#formas-inferior:checked ~ #figura-formas label[for="formas-inferior"] {
+  border-color: var(--verde);
+  box-shadow: 0 2px 8px rgba(46,125,50,0.2);
+}
+
+/* CASTILLO */
+#castillo-derecha:checked  ~ #figura-castillo .v-derecha,
+#castillo-trasera:checked  ~ #figura-castillo .v-trasera,
+#castillo-inferior:checked ~ #figura-castillo .v-inferior { display: block; }
+#castillo-derecha:checked  ~ #figura-castillo label[for="castillo-derecha"],
+#castillo-trasera:checked  ~ #figura-castillo label[for="castillo-trasera"],
+#castillo-inferior:checked ~ #figura-castillo label[for="castillo-inferior"] {
+  border-color: var(--verde);
+  box-shadow: 0 2px 8px rgba(46,125,50,0.2);
+}
+
+/* MARIO */
+#mario-derecha:checked  ~ #figura-mario .v-derecha,
+#mario-trasera:checked  ~ #figura-mario .v-trasera,
+#mario-inferior:checked ~ #figura-mario .v-inferior { display: block; }
+#mario-derecha:checked  ~ #figura-mario label[for="mario-derecha"],
+#mario-trasera:checked  ~ #figura-mario label[for="mario-trasera"],
+#mario-inferior:checked ~ #figura-mario label[for="mario-inferior"] {
+  border-color: var(--verde);
+  box-shadow: 0 2px 8px rgba(46,125,50,0.2);
+}
+
+/* AFRO */
+#afro-derecha:checked  ~ #figura-afro .v-derecha,
+#afro-trasera:checked  ~ #figura-afro .v-trasera,
+#afro-inferior:checked ~ #figura-afro .v-inferior { display: block; }
+#afro-derecha:checked  ~ #figura-afro label[for="afro-derecha"],
+#afro-trasera:checked  ~ #figura-afro label[for="afro-trasera"],
+#afro-inferior:checked ~ #figura-afro label[for="afro-inferior"] {
+  border-color: var(--verde);
+  box-shadow: 0 2px 8px rgba(46,125,50,0.2);
+}
+
+/* RELOJ 1 */
+#reloj1-derecha:checked  ~ #figura-reloj1 .v-derecha,
+#reloj1-trasera:checked  ~ #figura-reloj1 .v-trasera,
+#reloj1-inferior:checked ~ #figura-reloj1 .v-inferior { display: block; }
+#reloj1-derecha:checked  ~ #figura-reloj1 label[for="reloj1-derecha"],
+#reloj1-trasera:checked  ~ #figura-reloj1 label[for="reloj1-trasera"],
+#reloj1-inferior:checked ~ #figura-reloj1 label[for="reloj1-inferior"] {
+  border-color: var(--verde);
+  box-shadow: 0 2px 8px rgba(46,125,50,0.2);
+}
+
+/* MANDALA */
+#mandala-derecha:checked  ~ #figura-mandala .v-derecha,
+#mandala-trasera:checked  ~ #figura-mandala .v-trasera,
+#mandala-inferior:checked ~ #figura-mandala .v-inferior { display: block; }
+#mandala-derecha:checked  ~ #figura-mandala label[for="mandala-derecha"],
+#mandala-trasera:checked  ~ #figura-mandala label[for="mandala-trasera"],
+#mandala-inferior:checked ~ #figura-mandala label[for="mandala-inferior"] {
+  border-color: var(--verde);
+  box-shadow: 0 2px 8px rgba(46,125,50,0.2);
+}
+
+/* PAPEL */
+#papel-derecha:checked  ~ #figura-papel .v-derecha,
+#papel-trasera:checked  ~ #figura-papel .v-trasera,
+#papel-inferior:checked ~ #figura-papel .v-inferior { display: block; }
+#papel-derecha:checked  ~ #figura-papel label[for="papel-derecha"],
+#papel-trasera:checked  ~ #figura-papel label[for="papel-trasera"],
+#papel-inferior:checked ~ #figura-papel label[for="papel-inferior"] {
+  border-color: var(--verde);
+  box-shadow: 0 2px 8px rgba(46,125,50,0.2);
+}
+
+/* RELOJ 2 */
+#reloj2-derecha:checked  ~ #figura-reloj2 .v-derecha,
+#reloj2-trasera:checked  ~ #figura-reloj2 .v-trasera,
+#reloj2-inferior:checked ~ #figura-reloj2 .v-inferior { display: block; }
+#reloj2-derecha:checked  ~ #figura-reloj2 label[for="reloj2-derecha"],
+#reloj2-trasera:checked  ~ #figura-reloj2 label[for="reloj2-trasera"],
+#reloj2-inferior:checked ~ #figura-reloj2 label[for="reloj2-inferior"] {
+  border-color: var(--verde);
+  box-shadow: 0 2px 8px rgba(46,125,50,0.2);
+}
+
+/* GIRATIEMPO */
+#giratiempo-derecha:checked  ~ #figura-giratiempo .v-derecha,
+#giratiempo-trasera:checked  ~ #figura-giratiempo .v-trasera,
+#giratiempo-inferior:checked ~ #figura-giratiempo .v-inferior { display: block; }
+#giratiempo-derecha:checked  ~ #figura-giratiempo label[for="giratiempo-derecha"],
+#giratiempo-trasera:checked  ~ #figura-giratiempo label[for="giratiempo-trasera"],
+#giratiempo-inferior:checked ~ #figura-giratiempo label[for="giratiempo-inferior"] {
+  border-color: var(--verde);
+  box-shadow: 0 2px 8px rgba(46,125,50,0.2);
+}
+
+/* AVANCE PROYECTO */
+#proyecto-derecha:checked  ~ #figura-proyecto .v-derecha,
+#proyecto-trasera:checked  ~ #figura-proyecto .v-trasera,
+#proyecto-inferior:checked ~ #figura-proyecto .v-inferior { display: block; }
+#proyecto-derecha:checked  ~ #figura-proyecto label[for="proyecto-derecha"],
+#proyecto-trasera:checked  ~ #figura-proyecto label[for="proyecto-trasera"],
+#proyecto-inferior:checked ~ #figura-proyecto label[for="proyecto-inferior"] {
+  border-color: var(--verde);
+  box-shadow: 0 2px 8px rgba(46,125,50,0.2);
+}
+
+/* ── Miniaturas en 2 columnas para 6 vistas ── */
+.miniaturas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  width: 220px;
+  min-width: 220px;
+}
